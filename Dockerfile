@@ -11,3 +11,12 @@ RUN apt-get update && \
     cd python-gvm && \
     pip3 install .  && \
     wget -q https://download.greenbone.net/tools/check_gmp.py
+
+# Set environment variables.
+ENV HOME /root
+
+# Define working directory.
+WORKDIR /root
+
+# Define default command.
+CMD ["bash"]
