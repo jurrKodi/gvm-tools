@@ -11,4 +11,4 @@ docker start gvm-tools
 
 You would be able to 
 
- docker exec -it gvm-tools ./check_gmp.py tls -H <openvasHost> -u <usuario> -w <password> -T "<Taskname>" --last-report --status
+ docker exec -it gvm-tools ./check_gmp.py tls -H openvasHost -u usuario -w password -T "Taskname" --last-report --status
